@@ -13,5 +13,5 @@ what is this program doing:
 listen to network traffic: 
 `tcpdump -nn not port 8080`
 
-`Listen port`
-nc -l -p 8080
+Listen port
+`nc -l -p 8080`
