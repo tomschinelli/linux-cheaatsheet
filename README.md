@@ -1,5 +1,9 @@
+# Linux Cheatsheet
 
-Fileinfo 
+A collection of some useful linux commands.
+
+
+Fileinfo (e.g. which process creates a log file)
 `lsof file.ext`
 
 
@@ -11,7 +15,7 @@ what is this program doing:
 `strace prog`
 
 listen to network traffic: 
-`tcpdump -nn not port 8080`
+`tcpdump -nn lo`
 
 Listen port
 `nc -l -p 8080`
