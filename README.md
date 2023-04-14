@@ -3,12 +3,15 @@ Fileinfo
 `lsof file.ext`
 
 
-iptables -L -v
+Firewal
+`iptables -L -v`
 
 
-strace prog
+what is this program doing: 
+`strace prog`
 
-tcpdump -nn not port 8080
+listen to network traffic: 
+`tcpdump -nn not port 8080`
 
-Listen port
+`Listen port`
 nc -l -p 8080
