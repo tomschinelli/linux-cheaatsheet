@@ -2,20 +2,12 @@
 
 A collection of some useful linux commands.
 
+| Command  | Description                                           | example                       |
+|----------|-------------------------------------------------------|-------------------------------|
+| lsof     | Lists open files for running Unix processes           | `lsof /var/log/prog/prog.log` |
+| iptables | administration tool for IPv4 packet filtering and NAT | `iptables -L -v`              |
+| strace   | trace system calls and signals                        | `strace docker ps`            |
+| tcpdump  | dump traffic on a network                             | `tcpdump -nn lo`              |
+| nc       | arbitrary TCP and UDP connections and listens         | `nc -l -p 8080`               |
 
-Fileinfo (e.g. which process creates a log file)
-`lsof file.ext`
 
-
-Firewal
-`iptables -L -v`
-
-
-what is this program doing: 
-`strace prog`
-
-listen to network traffic: 
-`tcpdump -nn lo`
-
-Listen port
-`nc -l -p 8080`
